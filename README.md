@@ -62,6 +62,14 @@ RabbitMQPubSub101/
 
 ## Getting Started
 
+### Cloning the Repository
+Clone this repository to your local machine:
+
+```sh
+git clone https://github.com/fkucukkara/rabbitMQPubSub101.git
+cd rabbitMQPubSub101
+```
+
 ### Prerequisites
 
 - [.NET 9 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
@@ -110,8 +118,6 @@ dotnet run --project src/Consumers/ConsumerTwo/ConsumerTwo.csproj
 ```
 
 You should see both consumers printing every message published by the producer.
-
----
 
 ## Code Highlights
 
